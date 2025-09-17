@@ -1,0 +1,182 @@
+/* styles.css */
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Segoe UI', sans-serif; line-height: 1.6; color: #333; background: #f9f9f9; }
+.container { width: 90%; max-width: 960px; margin: auto; }
+
+.site-header, .site-footer {
+  background: #005f73; color: #fff;
+}
+.site-header .container, .site-footer .container {
+  display: flex; justify-content: space-between; align-items: center; padding: 1em 0;
+}
+.site-header a, .site-footer a { color: #fff; margin-left: 1em; text-decoration: none; }
+.site-header a:hover, .site-footer a:hover { text-decoration: underline; }
+
+.hero {
+  text-align: center;
+  padding: 4em 0;
+  background: #0a9396; color: #fff;
+}
+.hero h2 { font-size: 2.2rem; margin-bottom: 0.5em; }
+.hero p { font-size: 1.1rem; margin-bottom: 1.5em; }
+.btn {
+  padding: 0.75em 1.5em;
+  border-radius: 4px;
+  text-decoration: none;
+  margin: 0 0.5em;
+  display: inline-block;
+  transition: background 0.3s;
+}
+.btn.primary { background: #94d2bd; color: #005f73; }
+.btn.primary:hover { background: #ee9b00; color: #fff; }
+.btn.secondary { background: transparent; border: 2px solid #94d2bd; color: #94d2bd; }
+.btn.secondary:hover { background: #94d2bd; color: #005f73; }
+
+.features { display: flex; flex-wrap: wrap; justify-content: space-around; padding: 2em 0; }
+.feature {
+  flex: 1;
+  min-width: 250px;
+  margin: 1em;
+  background: #fff;
+  border-radius: 8px;
+  padding: 1.5em;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+.feature h3 { margin-bottom: 0.5em; }
+.feature p { font-size: 0.95rem; }
+
+.site-footer { margin-top: 4em; padding: 2em 0; background: #005f73; color: #fff; }
+.site-footer p { margin: 0; font-size: 0.9rem; }
+.form-section {
+  max-width: 400px;
+  margin: 2em auto;
+  padding: 2em;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+.form-box label {
+  display: block;
+  margin-bottom: 1em;
+}
+.form-box input {
+  width: 100%;
+  padding: 0.6em;
+  margin-top: 0.3em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.form-box button {
+  width: 100%;
+  margin-top: 1em;
+}
+.error-box {
+  background: #f8d7da;
+  color: #842029;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-radius: 4px;
+}
+.form-tip {
+  text-align: center;
+  margin-top: 1em;
+}
+.form-tip a {
+  color: #0a9396;
+}
+/* Hero Section */
+.hero {
+  background: #0a9396;
+  color: #fff;
+  text-align: center;
+  padding: 4em 1em;
+}
+.hero h2 {
+  font-size: 2.2rem;
+  margin-bottom: 0.5em;
+}
+.hero p {
+  font-size: 1.1rem;
+  margin-bottom: 1.5em;
+}
+.cta-buttons {
+  display: inline-flex;
+  gap: 1em;
+}
+.btn.primary {
+  background: #94d2bd;
+  color: #005f73;
+}
+.btn.primary:hover {
+  background: #ee9b00;
+  color: #fff;
+}
+.btn.secondary {
+  background: transparent;
+  border: 2px solid #94d2bd;
+  color: #94d2bd;
+}
+.btn.secondary:hover {
+  background: #94d2bd;
+  color: #005f73;
+}
+
+/* Feature Cards */
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 2em 0;
+}
+.feature {
+  background: #fff;
+  border-radius: 8px;
+  padding: 1.5em;
+  margin: 1em;
+  flex: 1 1 250px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+.feature h3 {
+  margin-bottom: 0.5em;
+}
+
+/* Global Styles */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f9f9f9;
+  color: #333;
+}
+.container {
+  width: 90%;
+  max-width: 960px;
+  margin: auto;
+  padding: 1em 0;
+}
+.site-footer {
+  background: #005f73;
+  color: #fff;
+  padding: 2em 0;
+}
+.site-footer .container {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
+.site-footer a {
+  color: #fff;
+  text-decoration: none;
+}
+.site-footer a:hover {
+  text-decoration: underline;
+}
+.budgets-table a {
+  color: #007BFF;
+  text-decoration: none;
+  margin-right: 8px;
+}
+
+.budgets-table a:hover {
+  text-decoration: underline;
+}
